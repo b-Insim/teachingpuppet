@@ -4,3 +4,11 @@ node default {
        content => 'hello world',
    }
 }
+
+node sever0 {
+
+package {'tmux':
+   ensure => installed,
+ }
+}
+
