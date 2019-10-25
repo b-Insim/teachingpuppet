@@ -5,7 +5,7 @@ node default {
    }
 }
 
-node sever0 {
+node server0 {
 
   package {'tmux':
    ensure => installed,
